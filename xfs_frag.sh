@@ -9,7 +9,7 @@ set -eu
 
 function echoHeader() {
   echo "# HELP xfs_db_frag fragmentation in percent"
-  echo "# TYPE xfs_db_frag fragmentation in percent"
+  echo "# TYPE xfs_db_frag gauge"
 }
 
 function main() {
